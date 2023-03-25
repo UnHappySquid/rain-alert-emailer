@@ -3,6 +3,8 @@
 - Need to put your own api credentials in a file called "api-key.txt" for https://home.openweathermap.org/, 
 under the same directory as the python file
 
+- Also need to run json-retrieve.sh under bash-scripts
+
 - ISO 3166 retrieved from https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes
 
 - Coutry list retrieved from https://github.com/russ666/all-countries-and-cities-json.git

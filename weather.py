@@ -1,7 +1,7 @@
 import requests
 import sys
 import json
-
+import os
 
 def setup():
     """
@@ -9,6 +9,7 @@ def setup():
     :return: None
     """
     global COUNTRY_TO_ISO, COUNTRY_TO_CITY, API_CREDS
+
     # This program uses https://openweathermap.org/ for requests, need to set your own api key and
     # write api key info in a file called api-key.txt
     with open("api-key.txt", "r") as creds:
